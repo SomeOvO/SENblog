@@ -1,12 +1,12 @@
 ---
-title: 1
+title: 小黑盒机器人部署教程
 published: 2026-05-15
-description: ''
+description: '自己开发的一款机器人~'
 image: ''
 tags: []
-category: ''
+category: '我得'
 draft: false 
-lang: ''
+lang: 'zh-CN'
 ---
 # xhhRobot
 
