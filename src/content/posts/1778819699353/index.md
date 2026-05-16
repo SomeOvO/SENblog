@@ -124,7 +124,7 @@ deviceID，可不填写，也可随意填写
 
 小黑盒api地址
 
-请填写 `https://api.xiaoheihe.cn/`
+请填写 `https://api.xiaoheihe.cn`
 
 ### webver
 
