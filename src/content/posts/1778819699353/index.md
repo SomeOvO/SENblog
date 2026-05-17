@@ -226,6 +226,27 @@ Api链接，请包含请求的端点，例如：https://www.gov.cn/v1/chat/compl
 
 您的token，若为我推荐的地址，则为刚才复制的内容，你也可以前往api令牌再次复制秘钥
 
+### webSearch & searchContextSize
+
+如果使用 `gpt-5.4` 并希望模型联网，需要使用 OpenAI Responses API，并开启 `webSearch`。仅把模型名改为 `gpt-5.4` 不会自动联网。
+
+否则，无需更改。
+
+```json
+{
+  "ai": {
+    "model": "gpt-5.4",
+    "baseUrl": "https://api.openai.com/v1/responses",
+    "token": "你的 OpenAI API Key",
+    "prompt": "你的提示词",
+    "webSearch": true,
+    "searchContextSize": "medium"
+  }
+}
+```
+
+如果必须继续使用 Chat Completions 接口，请将模型改为 `gpt-5-search-api`，并开启 `webSearch`。`gpt-5.4` 的联网能力推荐通过 Responses API 的 `web_search` 工具启用。
+
 # 登陆
 
 当您修改完配置文件保存后即可登陆。
