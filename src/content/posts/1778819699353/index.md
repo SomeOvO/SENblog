@@ -230,6 +230,8 @@ Api链接，请包含请求的端点，例如：https://www.gov.cn/v1/chat/compl
 
 如果使用 `gpt-5.4` 并希望模型联网，需要使用 OpenAI Responses API，并开启 `webSearch`。仅把模型名改为 `gpt-5.4` 不会自动联网。
 
+如需强制联网，请将`forceWebSearch`设置为`true`
+
 否则，无需更改。
 
 ```json
@@ -240,6 +242,7 @@ Api链接，请包含请求的端点，例如：https://www.gov.cn/v1/chat/compl
     "token": "你的 OpenAI API Key",
     "prompt": "你的提示词",
     "webSearch": true,
+    "forceWebSearch":true,
     "searchContextSize": "medium"
   }
 }
