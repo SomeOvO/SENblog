@@ -17,7 +17,7 @@ lang: zh-CN
 
 通过访问
 
-`https://xui.ptlogin2.qq.com/ssl/ptqrshow?appid=716027609&e=2&l=M&s=3&d=72&v=4&t=0.8668949625611146&daid=383&pt_3rd_aid=101491592&u1=https%3A%2F%2Fgraph.qq.com%2Foauth2.0%2Flogin_jump`
+https://xui.ptlogin2.qq.com/ssl/ptqrshow?appid=716027609&e=2&l=M&s=3&d=72&v=4&t=0.8668949625611146&daid=383&pt_3rd_aid=101491592&u1=https%3A%2F%2Fgraph.qq.com%2Foauth2.0%2Flogin_jump
 
 获取Cookie中的Qrsig
 
@@ -298,6 +298,8 @@ func GetPsKey(url string, cookies []*http.Cookie) (p_skey string, cookie []*http
 ```
 
 我们需要获得pskey和cookie进行下一步，获取CODE
+
+其中 gtk通过调用函数`Hash33`获得，其**str**为**pskey** ， **seed** 为 **5381**
 
 ```go
 func GetCode(gtk int32, cks []*http.Cookie) (code string) {
