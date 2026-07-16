@@ -13,7 +13,7 @@ lang: 'zh-CN'
 ::github{repo="SomeOvO/xhhRobot"}
 
 
->问题解答，有偿部署，技术交流；此项目的QQ群：1105459042
+>问题解答，技术交流；此项目的QQ群：1105459042
 
 # 下载
 
@@ -176,35 +176,9 @@ deviceID，可不填写，也可随意填写
 
 若您使用kimi，则有概率不支持。
 
-目前我开发使用的为`grok-4-fast`中转站。因为此模型支持识图，联网。
-
-同时，若您没有ai模型，不介意的话可以使用[此中转站](https://yunwu.ai/register?aff=7bB9) 这个中转站的grok-4-fast价格非常便宜，当然，这个链接带上了我的个人邀请码，也恳请您使用此链接来支持我。
-
-此中转站为我唯一的自用中转站，并非给它打广告，仅觉得优惠而已推荐给大家。
-
-可以看一下我的使用记录，4000token仅花费0.001,而且充值也是1:2的。
-
-![alt text](image-3.png)
-
-注册后点击控制台的**API令牌** 添加令牌
-
-![alt text](image-4.png)
-
-名称随便设置，分组选择default，点击确定
-
-![alt text](image-5.png)
-
-生成后点击复制备用
-
-![alt text](image-6.png)
-
-然后前往钱包自定义充值1元就够用半个月了。
-
-当然，您的前三笔充值将会给我10%返利
-
 ### model
 
-模型列表，若您使用我推荐的api，则填写`grok-4-fast`
+模型名称
 
 ### prompt
 
@@ -218,13 +192,11 @@ deviceID，可不填写，也可随意填写
 
 ### baseUrl
 
-Api链接，请包含请求的端点，例如：https://www.gov.cn/v1/chat/completions
-
-如果你使用我推荐的地址，请填写`https://yunwu.ai/v1/chat/completions`
+Api链接，请包含请求的端点，例如：https://yuanshen.com/v1/chat/completions
 
 ### token
 
-您的token，若为我推荐的地址，则为刚才复制的内容，你也可以前往api令牌再次复制秘钥
+您的token
 
 ### webSearch & searchContextSize
 
