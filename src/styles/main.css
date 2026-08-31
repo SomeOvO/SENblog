@@ -27,6 +27,9 @@
 .wl-card .wl-meta>span{
     background: var(--page-bg)!important;
 }
+.wl-emoji-preview{
+    pointer-events: none!important;
+}
 @layer components {
     .card-base {
         @apply rounded-[var(--radius-large)] overflow-hidden bg-[var(--card-bg)] transition;
