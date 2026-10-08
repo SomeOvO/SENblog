@@ -11,6 +11,10 @@ lang: zh-CN
 ---
 封面来源：[Pixiv-旅立ちの日](https://www.pixiv.net/artworks/148132818)
 
+:::caution
+由于系统更新，此内容已失效，目前尚未重写
+:::
+
 # 前言
 
 :::caution
@@ -21,9 +25,9 @@ lang: zh-CN
 
 # 正文
 
-https://www.jszwfw.gov.cn/ 采用的是单点登陆，目前尚未研究在已登陆https://www.jszwfw.gov.cn/ 的情况下去登陆https://scjg.jszwfw.gov.cn/allLinks/business/index/home.jsp，而是在登陆https://scjg.jszwfw.gov.cn/allLinks/business/index/home.jsp的时候重新登陆https://www.jszwfw.gov.cn/。
+https://www.jszwfw.gov.cn/ 采用的是单点登陆，目前尚未研究在已登陆 https://www.jszwfw.gov.cn/ 的情况下去登陆 https://scjg.jszwfw.gov.cn/allLinks/business/index/home.jsp，而是在登陆 https://scjg.jszwfw.gov.cn/allLinks/business/index/home.jsp 的时候重新登陆 https://www.jszwfw.gov.cn/。
 
-是不是有点绕了？意思是本文只讨论未登录https://www.jszwfw.gov.cn/的情况下登陆获取SESSION。
+是不是有点绕了？意思是本文只讨论未登录 https://www.jszwfw.gov.cn/的情况下登陆获取SESSION。
 
 ## 查看
 

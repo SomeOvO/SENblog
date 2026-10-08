@@ -4,7 +4,7 @@ published: 2026-09-27
 description: 充满猫的寺庙
 image: ""
 tags: []
-category: ""
+category: 我见
 draft: false
 lang: ""
 ---
