@@ -1,14 +1,14 @@
 ---
 title: 江苏省企业全链通综合服务平台算法解析
 published: 2026-10-08
-description: "放假后的新东西"
-image: ""
+description: 放假后的新东西
+image: index-1791552927484.png
 tags: []
 category: 我得
 draft: false
-lang: "zh-CN"
+lang: zh-CN
 ---
-
+封面来源：[🌀 | シャガム (PIXIV)](https://www.pixiv.net/artworks/122289031)
 # 前言
 
 :::warning
@@ -306,7 +306,9 @@ function Le(e) {
     : Fe(e, h.warning);
 }
 ```
-注意备注都是我自己加的，我们可以看到ve计算前使用了p作为key，l作为iv，f作为内容，m作为tag，而d作为额外内容
+注意备注都是我自己加的，我们可以看到ve计算前使用了p作为key，l作为iv，f作为内容，m作为tag，而d作为额外内容。
+
+另外，文章中还有sessionKey，这里目前推测是本地生成然后请求时和服务器协商。协商后的值可以在localstore中找到，具体实现就不在文章中公开了。
 
 那么p从哪里来呢？
 
@@ -365,6 +367,7 @@ function be(e, t, n, r, o, a) {
 
 以上就是所有内容了，不到一天就可以破解，下面就会研究登陆内容了。
 
+Go复现:
 ![alt text](./image-13.png)
 
-Go复现
+文章写的比较含糊，因为我也不希望你真的复现出来，不然我就成共犯了。
