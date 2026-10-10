@@ -31,7 +31,7 @@ export const siteConfig: SiteConfig = {
 	},
 	favicon: [
 		{
-			src: "https://sakurasen.cn/imgs/avat.png", // Path of the favicon, relative to the /public directory
+			src: "https://3mua.cn/imgs/avat.png", // Path of the favicon, relative to the /public directory
 			theme: "light", // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
 			sizes: "32x32", // (Optional) Size of the favicon, set only if you have favicons of different sizes
 		},
@@ -45,7 +45,7 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.About,
 		{
 			name: "友情链接",
-			url: "https://sakurasen.cn/friends", // Internal links should not include the base path, as it is automatically added
+			url: "https://3mua.cn/friends", // Internal links should not include the base path, as it is automatically added
 			external: true, // Show an external link icon and will open in a new tab
 		},
 		{
@@ -57,7 +57,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "https://sakurasen.cn/imgs/avat.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+	avatar: "https://3mua.cn/imgs/avat.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "SEN",
 	bio: "无限进步",
 	links: [
