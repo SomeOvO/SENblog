@@ -9,7 +9,15 @@ category: 我思
 draft: false
 lang: zh-CN
 ---
+
 封面来源：[Life | きゃの(Pixiv)](https://www.pixiv.net/artworks/134627187)
+
+:::IMPORTANT
+此帖已完结，官方尚未作出解释
+:::
+
+提交反馈后官方已修复[Github](https://github.com/TencentEdgeOne/pages-templates/issues/79)
+
 # 说在前面
 
 EdgeOne是我一直在使用的工具，作为前端部署也是符合我的使用需求的。
@@ -55,4 +63,3 @@ https://eop-site-sh-prod-maz-1256816668.cos.ap-shanghai.myqcloud.com/index-dpa8u
 不过依旧无法解释为什么有人能够通过链接直接访问？也许是腾讯云OSS的一些设置，也或许是其内部开发的一些工具来审计或者用于自我训练。
 
 我们无从得知。
-
